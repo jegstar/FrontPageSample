@@ -6,6 +6,8 @@
     flex-shrink: 0;
     height:5vh;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .dark-container
@@ -16,10 +18,21 @@
     color: whitesmoke;
     justify-content: center;
     align-content: center;
+    gap:40px;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 .vertical-container {
     width: 200px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 12px;
 }
 
 .dark-title {
